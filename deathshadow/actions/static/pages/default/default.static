@@ -1,0 +1,45 @@
+
+<!-- asdf -->
+
+<section class="jumbo">
+	<div class="inner">
+		<h2>Home Page</h2>
+		<h3 class="fgr"> file: /actions/static/pages/default/default.static </h3> 
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla id dui nec euismod. Morbi vulputate elementum ante, in tempor purus congue ut. Proin ultrices cursus mi, vitae fermentum nibh tincidunt a. Curabitur venenatis neque sit amet metus egestas pellentesque. Etiam sagittis viverra lectus vel pretium. Maecenas consectetur nisl vel hendrerit consequat. Donec iaculis tristique molestie. Sed massa dolor, egestas ut congue a, placerat sit amet massa. Donec maximus sit amet nunc ut luctus. Quisque sit amet pharetra mauris.
+		</p>
+
+		<h3>
+	      <a href="https://codeigniter.com/userguide3/overview/appflow.html">
+		  <b class="fll">
+		   File: http://localhost/thisisatesttoseeifitworks.tk/public_html/deathshadow/images/ci3-appflowchart.gif
+				 </b>
+
+        </h3>		
+		<div class="mga tac">
+				<img 
+					class="w99 mga"
+					src="images/ci3-appflowchart.gif" 
+					width="697" height="205"
+					alt="https://codeigniter.com/userguide3/_images/appflowchart.gif">
+				</a>	
+		</div>
+
+		<ul class="controls tac">
+			<li>
+			<a href="https://forums.cutcodedown.com/index.php?topic=362.0;topicseen">
+				Forum Discussion 
+			</a></li>
+			<li>
+			<a href="https://cutcodedown.com/for_others/squire3/live" class="featured"> 
+				Onlinde Demo 
+			</a></li>
+			<li>
+			<a href="https://cutcodedown.com/for_others/squire3/squire3.rar">
+				Rar Zipped Source 
+			</a></li>
+		</ul>
+		
+	<!-- .inner --></div>
+<!-- .jumbo --></section>
