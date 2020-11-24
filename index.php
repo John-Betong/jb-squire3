@@ -4,8 +4,6 @@ defined('LOCALHOST')
 ?:
 define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
 
-# echo __file__; die('FUCK');
-
 /*
 	index.php
 	Squire 3.0 "one index to rule them all"
@@ -13,7 +11,7 @@ define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
 */
 
 // before we do ANYTHING else, let's set up gzip compression
-if(0):	
+if(10):	
 	foreach (['gzip', 'x-gzip', 'x-compress'] as $type) {
 		if (strpos($_SERVER['HTTP_ACCEPT_ENCODING'], $type) !== false) {
 			ob_start('ob_gzhandler');
