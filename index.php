@@ -1,9 +1,13 @@
 <?php declare(strict_types=1);
+error_reporting(-1);
+ini_set('display-errors', 'true');
 
 defined('LOCALHOST')
 ?:
 define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
 
+define('APP', '003-app/');
+define('SYS', '003-sys/');
 /*
 	index.php
 	Squire 3.0 "one index to rule them all"
@@ -46,20 +50,20 @@ header('X-Frame-Options: DENY');
 	Load functions and methods common to all pages
 */
 # include('libs/common.lib.php');
-	require('libs/common.lib.php');
+  require(SYS .'libs/common.lib.php');
 
 /*
 	Many settings are loaded from ini as the setter and are
 	only retrievable with a getter.
 */
 Settings::loadFromIni(
-	'default.ini.php',
-	'user.ini.php'
+	APP .'ini/default.ini.php',
+	APP .'ini/user.ini.php'
 );
 
 define(
 	'TEMPLATE_PATH',
-	'templates/' . (Settings::get('template') ?: 'default') . '/'
+	APP .'templates/' . (Settings::get('template') ?: 'default') . '/'
 );
 
 templateLoad('common');
@@ -73,8 +77,8 @@ templateLoad('common');
 	
 	$action = Request::value();
 	if (!$action) $action = 'static';
-	if (!is_dir('actions/' . $action)) httpError(404);
-	$actionPath = 'actions/' . $action . '/' . $action . '.';
+	if (!is_dir(APP .'actions/' . $action)) httpError(404);
+	$actionPath = APP .'actions/' . $action . '/' . $action . '.';
 	safeInclude($actionPath . 'startup.php');
 	$data = action_startup();
 	template_header($data);

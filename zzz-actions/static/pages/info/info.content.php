@@ -4,7 +4,7 @@ function action_content(array $data)
 {
   # echo '<pre>'; print_r($data); echo '</pre>';
 
-$IMG = 'https://thisisatesttoseeifitworks.tk/deathshadow/images/ds-dirs.png';
+$IMG = 'https://thisisatesttoseeifitworks.tk/assets/imgs/ds-dirs.png';
 
 echo $tmp = <<< ____EOT
 <div class="alternating w88 mga p42 fjb">
@@ -53,9 +53,9 @@ echo $tmp = <<< ____EOT
 
     <dt> /templates/default/common.template.php 
       <sup> layout functions </sup> </dt>
-    <dd> Function template_header($data = []), function  template_footer($data = []) </dd>
+    <dd> Function template_header(\$data = []), function  template_footer(\$data = []) </dd>
 
-  	<dt> https://thisisatesttoseeifitworks.tk/deathshadow/images/ds-dirs.png </dt>
+  	<dt> https://thisisatesttoseeifitworks.tk/assets/imgs/ds-dirs.png </dt>
   	<dd class="w88 p42">
   	  <hr>
       <img class="p42" src="$IMG" width="374" height="822" alt="ds-dirs.png">
