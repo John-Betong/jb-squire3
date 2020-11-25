@@ -1,12 +1,16 @@
-# Squire3 Repository
+# JB-Squire3 Repository
 ### Original Source from: https://cutcodedown.com/for_others/squire3/
-<br>
+
 ### This repository split the above source into the following folders (for easier maintenance) :
+
 <br>
+### Online Demo:
+<br>
+https://thisisatesttoseeifitworks.tk/jb-squire3/
+
 <dl>
 <dt> /assets/ </dt>
 <dd> contains three sub-folders "css", "js" and "imgs" </dd>
-<dd> &nbsp; </dd>	
 <dt> ANY-DIRECTORY - may be positioned anywhere on domain-name </dt>
 <dd> 
 	contains two sub-folders 
@@ -28,7 +32,6 @@ All directories and files should be downloaded into "ANY-DIRECTORY" and the foll
 &lt;?php
 <br>
 header('Location: ANY-DIRECTORY');
-<br>
 <br>
 
 #### file: ANY-DIRECTORY/index.php definitions that require setting to your environment
@@ -56,5 +59,5 @@ define('SYS', 'ANY-DIRECTORY/003-sys/');
 // PLEASE NOTE THE "ANY-DIRECTORY" folder can be set above or below root
 <br><br>
 // give it a whirl and see if it works :)
-//
+<br><br><br><br>
 // DO NOT MODIFY ANYTHING BELOW
