@@ -1,4 +1,4 @@
-; <?php declare(strict_types=1); die(); // prevent direct calls just in case
+; <?php die(); // prevent direct calls just in case
 
 ; defaultSettings.ini.php
 ;	Squire 3.0 default configuration file

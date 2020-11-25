@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{font:16px/1.42 "-apple-system",BlinkMacSystemFont,
+"SegoeUI",Roboto,Oxygen,Ubuntu,Cantarell,"FiraSans","DroidSans",
+Inconsolata,"Helvetica Neue",Arial,"sans-serif";
+border:0; margin:2px 4px; padding:0.2em;background-color:#050;color:#fff;}
+h1,h2,h3,h4,h5,h6{font-weight:400;}
+dd{margin-left:3em;}
+hr{color:#fdf;}
+#livesearch{color:#888;}
+.logo {width:1.88em; margin: 1px 5px 0 0 ;}
+.bd1{border:solid 1px #ddd;}
+.bdr{border-radius:0.88em;}
+.bgc{background-color:#eff;}
+.bgd{background-color:#ddd;}
+.bge{background-color:#eee;}
+.bgs{background-color:snow;}
+.bgy{background-color:#ff0;}
+.bgQ{background-color:#9dd; color:#009;}
+.btn{padding: 0.12em 0.42em;}
+.BOT{left:0;bottom:0;}
+.clb{clear:both;}
+.dib{display:inline-block;}
+.fg0{color:#000;}
+.fg3{color:#333;} .fg7 {color: #288;}
+.fgc{color:#ccc;}
+.fga{color:#0ff;}
+.fgl{color:lime;}
+.fgy{color:#ff0;}
+.fgs{color:snow;}
+.fgb{color:#009;}
+.fgr{color:#a00;}
+.fix{position:fixed;}
+.fll{float:left;}
+.flr{float:right;}
+.fss{font-size:small;}
+.ftr{position: fixed; left: 0; bottom: 0;}
+.hhh{display:none;} 
+.lh2{line-height:2;}
+.mga{margin:0 auto;}
+.mg1{margin:1em auto;}
+.ooo{margin:0;padding:0;}
+.p42{padding:0.21em 0.42em;}
+.tac{text-align:center;}
+.tdn{text-decoration: none;}
+.ulv{width:18em;list-style-type:disc;}
+.w88{width:88%;max-width:888px;}
+.w99{width:99%;}
+.w42{width:42%;}

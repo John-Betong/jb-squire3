@@ -5,9 +5,13 @@ ini_set('display-errors', 'true');
 defined('LOCALHOST')
 ?:
 define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
+define('BASEURL', LOCALHOST 
+	? 'http://localhost/thisisatesttoseeifitworks.tk/public_html/'
+	: 'https://thisisatesttoseeifitworks.tk/'
+);
+define('APP', 'ANY-DIRECTORY/003-app/');
+define('SYS', 'ANY-DIRECTORY/003-sys/');
 
-define('APP', '003-app/');
-define('SYS', '003-sys/');
 /*
 	index.php
 	Squire 3.0 "one index to rule them all"

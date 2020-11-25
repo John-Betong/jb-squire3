@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font: 17px/1.42 Montserrat,BlinkMacSystemFont,
+  "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border:0; margin:0; padding:0; 
+  border:0; margin:2px 4px; padding:0 0 .2em; 
+  background-color: #005; color: #fff;
+}
+dd   {margin-left: 3em;}
+hr   {color: #fdf;}
+.logo {padding-top:0.21em;}
+
+#livesearch {color:#888;}
+
+.bd1 {border: solid 1px #ddd;} .bd3 {border-bottom: solid 1px #999;}
+.bgc {background-color: #ccc;} .bgd {background-color: #ddd;}
+.bge {background-color: #eee;} .bgs {background-color: snow;} 
+.bgl {background-color: lime;} .bgy {background-color: #ff0;}
+.btn {margin-left: 0.42em; border:outset 3px #eee; padding: 0.12em 0.42em;}
+.BOT {left:0; bottom:0;}
+.clb {clear:both;}
+.dib {display: inline-block;}
+.fg0 {color:#000;}  .fg3 {color: #333;} .fgc {color: #ccc;} 
+.fga {color: aqua;} .fgy {color: #ff0;} .fgs {color: snow;} 
+.fgw {color: snow;} .fgb {color:#009;}
+.fgr {color: #a00;} .fgg {color: #090;} 
+.fix {position:fixed;}
+.fll {float: left;} .flr {float:right;} 
+.fss {font-size: small;}
+.fs2 {font-size: 1.42em;} .fsn {font-size:medium;}
+.ftr {position: fixed; left: 0; bottom: 0;}
+.fwb {font-weight: 700;}
+.jbs {margin: -4px 12px 0 0; width:1.42em; height:3em;}
+.hhh {display:none;}
+.lh2 {line-height:2;}
+.mga {margin: 0 auto;} .mg1 {margin: 1em auto;}
+.ooo {margin: 0; padding: 0;}
+.p42 {padding: 0.42em;}
+.rad {border-radius: 0.42em;}
+.tac {text-align: center;} .tal {text-align: left;}
+.tar {text-align: right;}
+.tdn {text-decoration: none;}
+
+.ulv {width:20em; border:solid 1px #eee; 
+			list-style-type:disc;}
+.ulh li {display:inline-block; margin:0 1em;}
+
+.w88 {width:88%; max-width: 888px;} .w99 {width:99%;}
+.w42 {width:42%;}
+/* 
+.zbk {text-decoration: blink;
+			animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+} 
+*/

@@ -36,11 +36,11 @@ function template_header($data = []) {
 
 
 	foreach (Settings::get('style') as $name => $media) echo '
-<link
-	rel="stylesheet"
-	href="', ROOT_HTTP . TEMPLATE_PATH, $name, '"
-	media="', $media, '"
->';
+	  <link
+			rel="stylesheet"
+			href="', BASEURL, 'assets/css/', $name, '"
+			media="', $media, '"
+	  >';
 
 	echo '
 	<link
@@ -221,8 +221,11 @@ function template_footer($data = []) {
 	} // modals
 		
 	echo '
-	
-	<script src="', ROOT_HTTP, TEMPLATE_PATH, 'scripts/default.template.js"></script>
+
+	<!--	
+		<script src="', ROOT_HTTP, TEMPLATE_PATH, 'scripts/default.template.js"></script>
+	-->
+	<script src="', BASEURL, 'assets/js/default.template.js"></script>
 
 </body></html>';
 

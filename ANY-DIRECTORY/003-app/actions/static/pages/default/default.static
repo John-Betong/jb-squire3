@@ -1,9 +1,9 @@
 
-<!-- asdf -->
+<!-- what type of file is this ??? -->
 
 <section class="jumbo">
 	<div class="inner">
-		<h2>Home Page - JB-Squire3 </h2>
+		<h2>Home Page <sup class="fss"> JB-Squire3 </sup> </h2>
 		<h3 class="fgr"> file: /actions/static/pages/default/default.static </h3> 
 
 		<p>
@@ -13,14 +13,14 @@
 		<h3>
 	      <a href="https://codeigniter.com/userguide3/overview/appflow.html">
 		  <b class="fll">
-		   File: http://localhost/thisisatesttoseeifitworks.tk/public_html/deathshadow/images/ci3-appflowchart.gif
+		   File: https://thisisatesttoseeifitworks.tk/assets/imgs/ci3-appflowchart.gif
 				 </b>
 
         </h3>		
 		<div class="mga tac">
 				<img 
 					class="w99 mga"
-					src="images/ci3-appflowchart.gif" 
+					src="https://thisisatesttoseeifitworks.tk/assets/imgs/ci3-appflowchart.gif" 
 					width="697" height="205"
 					alt="https://codeigniter.com/userguide3/_images/appflowchart.gif">
 				</a>	

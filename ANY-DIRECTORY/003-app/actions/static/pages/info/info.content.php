@@ -4,7 +4,9 @@ function action_content(array $data)
 {
   # echo '<pre>'; print_r($data); echo '</pre>';
 
-$IMG = 'https://thisisatesttoseeifitworks.tk/assets/imgs/ds-dirs.png';
+$IMG = 'https://thisisatesttoseeifitworks.tk/assets/imgs/jb-dirs.png';
+$IMG = BASEURL .'assets/imgs/jb-dirs.png';
+
 
 echo $tmp = <<< ____EOT
 <div class="alternating w88 mga p42 fjb">
@@ -43,11 +45,11 @@ echo $tmp = <<< ____EOT
       </dl>  
     </dd>  
 
-    <dt> /templates/default/vars.screen.css 
+    <dt> BASEURL assets/css/vars.screen.css 
       <sup> existing CSS file </sup> </dt>
     <dd> CSS file contents </dd>
 
-    <dt> /templates/default/layout.screen.css 
+    <dt> BASEURL assets/css/default/layout.screen.css 
       <sup> existing CSS file </sup> </dt>
     <dd> CSS @import "tla.css"; and CSS elements </dd>
 
@@ -55,10 +57,10 @@ echo $tmp = <<< ____EOT
       <sup> layout functions </sup> </dt>
     <dd> Function template_header(\$data = []), function  template_footer(\$data = []) </dd>
 
-  	<dt> https://thisisatesttoseeifitworks.tk/assets/imgs/ds-dirs.png </dt>
+  	<dt> $IMG </dt>
   	<dd class="w88 p42">
   	  <hr>
-      <img class="p42" src="$IMG" width="374" height="822" alt="ds-dirs.png">
+      <img class="p42" src="$IMG" width="362" height="891" alt="jb-dirs.png">
    </dd>
   </dl>
    </dd>
