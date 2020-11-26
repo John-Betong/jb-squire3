@@ -42,7 +42,7 @@ header('Location: ANY-DIRECTORY/index.php');
 
 defined('LOCALHOST') || define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
 
-// BASEURL used for images and JavaScript files stored in /assets/css or assets/js folders
+// BASEURL used for CSS, JavaScript and images files stored in /assets/ folders
 define( 'BASEURL',  LOCALHOST 
  ? 'http://localhost/thisisatesttoseeifitworks.tk/public_html/'
  : 'https://thisisatesttoseeifitworks.tk/'
