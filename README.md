@@ -1,63 +1,58 @@
 # JB-Squire3 Repository
-### Original Source from: https://cutcodedown.com/for_others/squire3/
 
-### This repository split the above source into the following folders (for easier maintenance) :
+## [**JB-Squire3 - Online Demo**](https://thisisatesttoseeifitworks.tk/jb-squire3/)
+  
+## [**Original CutCodeDown Source**](https://cutcodedown.com/for_others/squire3/)
 
+
+### The above source is split into into the following folders (for easier maintenance) :
+
+### Folder: /assets - (contains three sub-folders)
+>	css
 <br>
-### Online Demo:
+	js
 <br>
-https://thisisatesttoseeifitworks.tk/jb-squire3/
+	imgs
+  </ol>
+<br><br>
 
-<dl>
-<dt> /assets/ </dt>
-<dd> contains three sub-folders "css", "js" and "imgs" </dd>
-<dt> ANY-DIRECTORY - may be positioned anywhere on domain-name </dt>
-<dd> 
-	contains two sub-folders 
-	<ol>
-	  <li> 003-app - jb-squire3 project application files </li>
-	  <li> 003-sys - jb-squire3 project system files </li>
-    </ol>
-</dd>
-<dd> &nbsp; </dd>	
-</dl>
+### Folder:  ANY-DIRECTORY - (contains application and system folders)
+>   003-APP
+> <br>
+>  003-SYS
+<br><br>
 
 
 ## Installation:
 
-All directories and files should be downloaded into "ANY-DIRECTORY" and the following index.php file called to activate this <b>jb-squire3</b> Repository.
+> All directories and files should be downloaded into **ANY-DIRECTORY** and the following index.php file called to activate this <b>jb-squire3</b> Repository.
 <br>
 
-#### file: to call ANY-DIRECTORY/index.php
-&lt;?php
-<br>
-header('Location: ANY-DIRECTORY');
-<br>
+### File: /index.php - to call JB-Squire3
 
-#### file: ANY-DIRECTORY/index.php definitions that require setting to your environment
+```
+<?php
+header('Location: ANY-DIRECTORY/index.php');
+?>
+```
 
-&lt;?php declare(strict_types=1);
+#### File: ANY-DIRECTORY/index.php definitions that require setting to your environment
+```
+<?php declare(strict_types=1);
 
-defined('LOCALHOST')
-||
-define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
-<br>
+defined('LOCALHOST') || define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
 
 // BASEURL used for images and JavaScript files stored in /assets/css or assets/js folders
-define('BASEURL',  LOCALHOST 
-<br>
-	? 'http://localhost/thisisatesttoseeifitworks.tk/public_html/'
-<br>	
-	: 'https://thisisatesttoseeifitworks.tk/'
-<br>	
-); 
-<br><br>
+define( 'BASEURL',  LOCALHOST 
+ ? 'http://localhost/thisisatesttoseeifitworks.tk/public_html/'
+ : 'https://thisisatesttoseeifitworks.tk/'
+);   
+
 define('APP', 'ANY-DIRECTORY/003-app/');
-<br>
+
 define('SYS', 'ANY-DIRECTORY/003-sys/');
-<br><br>
-// PLEASE NOTE THE "ANY-DIRECTORY" folder can be set above or below root
-<br><br>
-// give it a whirl and see if it works :)
-<br><br><br><br>
-// DO NOT MODIFY ANYTHING BELOW
+```
+
+NB: **"ANY-DIRECTORY"** folder can be set above or below root
+
+ 
