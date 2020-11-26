@@ -1,18 +1,17 @@
 # JB-Squire3 Repository
 
-## [**JB-Squire3 - Online Demo**](https://thisisatesttoseeifitworks.tk/jb-squire3/)
+### [**JB-Squire3 - Online Demo**](https://thisisatesttoseeifitworks.tk/jb-squire3/)
   
-## [**Original CutCodeDown Source**](https://cutcodedown.com/for_others/squire3/)
+### [**Original CutCodeDown Source**](https://cutcodedown.com/for_others/squire3/)
 
 
 ### The above source is split into into the following folders (for easier maintenance) :
 
 ### Folder: /assets - (contains three sub-folders)
->	css
-<br>
-	js
-<br>
-	imgs
+<ol><li>
+	css</li>
+	<li>js</li>
+	<li>imgs</li>
   </ol>
 <br><br>
 
