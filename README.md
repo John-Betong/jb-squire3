@@ -31,26 +31,23 @@
 ### File: /index.php - to call JB-Squire3
 
 ```
-<?php
-header('Location: ANY-DIRECTORY/index.php');
-?>
-```
-
-#### File: ANY-DIRECTORY/index.php definitions that require setting to your environment
-```
 <?php declare(strict_types=1);
-
-defined('LOCALHOST') || define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
+defined('LOCALHOST') 
+|| 
+define('LOCALHOST', 'localhost'===$_SERVER['SERVER_NAME']);
 
 // BASEURL used for CSS, JavaScript and images files stored in /assets/ folders
-define( 'BASEURL',  LOCALHOST 
+define( 'BASEURL',  
+LOCALHOST 
  ? 'http://localhost/thisisatesttoseeifitworks.tk/public_html/'
  : 'https://thisisatesttoseeifitworks.tk/'
 );   
 
 define('APP', 'ANY-DIRECTORY/003-app/');
-
 define('SYS', 'ANY-DIRECTORY/003-sys/');
+
+header('Location: ANY-DIRECTORY/index.php');
+
 ```
 
 NB: **"ANY-DIRECTORY"** folder can be set above or below root
